@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Comments;
+use Auth;
 use Illuminate\Http\Request;
 
 class CommentsController extends Controller
@@ -35,7 +36,10 @@ class CommentsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request['user_id'] = Auth::id();
+        // dd($request->all());
+        Comments::create($request->all());
+        return back();
     }
 
     /**

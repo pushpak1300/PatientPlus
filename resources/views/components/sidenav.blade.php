@@ -1,9 +1,9 @@
 <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
     <div class="scroll-wrapper scrollbar-inner" style="position: relative;"><div class="scrollbar-inner scroll-content scroll-scrolly_visible" style="height: auto; margin-bottom: 0px; margin-right: 0px; max-height: 849px;">
       <!-- Brand -->
-      <div class="sidenav-header  d-flex  align-items-center">
+      <div class="sidenav-header  d-flex  text-center align-items-center">
         <a class="navbar-brand" href="../../pages/dashboards/dashboard.html">
-          <img src="../../assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
+          <h1 class="h1 text-primary text-center">Patient +</h1>
         </a>
         <div class=" ml-auto ">
           <!-- Sidenav toggler -->
@@ -24,273 +24,49 @@
             <li class="nav-item">
               <a class="nav-link active" href="#navbar-dashboards" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-dashboards">
                 <i class="ni ni-shop text-primary"></i>
-                <span class="nav-link-text">Dashboards</span>
+                <span class="nav-link-text">Forum</span>
               </a>
               <div class="collapse show" id="navbar-dashboards">
                 <ul class="nav nav-sm flex-column">
                   <li class="nav-item">
-                    <a href="../../pages/dashboards/dashboard.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> D </span>
-                      <span class="sidenav-normal"> Dashboard </span>
+                    <a href="/home" class="nav-link">
+                      <span class="sidenav-mini-icon">  </span>
+                      <span class="sidenav-normal">Forum</span>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="../../pages/dashboards/alternative.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> A </span>
-                      <span class="sidenav-normal"> Alternative </span>
+                    <a href="/post/create" class="nav-link">
+                      <span class="sidenav-mini-icon">  </span>
+                      <span class="sidenav-normal">Create Post</span>
                     </a>
                   </li>
                 </ul>
               </div>
             </li>
+           
+            
+            
+            
             <li class="nav-item">
-              <a class="nav-link" href="#navbar-examples" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-examples">
-                <i class="ni ni-ungroup text-orange"></i>
-                <span class="nav-link-text">Examples</span>
-              </a>
-              <div class="collapse" id="navbar-examples">
-                <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="../../pages/examples/pricing.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> P </span>
-                      <span class="sidenav-normal"> Pricing </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/examples/login.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> L </span>
-                      <span class="sidenav-normal"> Login </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/examples/register.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> R </span>
-                      <span class="sidenav-normal"> Register </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/examples/lock.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> L </span>
-                      <span class="sidenav-normal"> Lock </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/examples/timeline.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> T </span>
-                      <span class="sidenav-normal"> Timeline </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/examples/profile.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> P </span>
-                      <span class="sidenav-normal"> Profile </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/examples/rtl-support.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> RP </span>
-                      <span class="sidenav-normal"> RTL Support </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#navbar-components" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-components">
-                <i class="ni ni-ui-04 text-info"></i>
-                <span class="nav-link-text">Components</span>
-              </a>
-              <div class="collapse" id="navbar-components">
-                <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="../../pages/components/buttons.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> B </span>
-                      <span class="sidenav-normal"> Buttons </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/components/cards.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> C </span>
-                      <span class="sidenav-normal"> Cards </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/components/grid.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> G </span>
-                      <span class="sidenav-normal"> Grid </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/components/notifications.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> N </span>
-                      <span class="sidenav-normal"> Notifications </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/components/icons.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> I </span>
-                      <span class="sidenav-normal"> Icons </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/components/typography.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> T </span>
-                      <span class="sidenav-normal"> Typography </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#navbar-multilevel" class="nav-link" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-multilevel">
-                      <span class="sidenav-mini-icon"> M </span>
-                      <span class="sidenav-normal"> Multi level </span>
-                    </a>
-                    <div class="collapse show" id="navbar-multilevel" style="">
-                      <ul class="nav nav-sm flex-column">
-                        <li class="nav-item">
-                          <a href="#!" class="nav-link ">Third level menu</a>
-                        </li>
-                        <li class="nav-item">
-                          <a href="#!" class="nav-link ">Just another link</a>
-                        </li>
-                        <li class="nav-item">
-                          <a href="#!" class="nav-link ">One last link</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#navbar-forms" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-forms">
-                <i class="ni ni-single-copy-04 text-pink"></i>
-                <span class="nav-link-text">Forms</span>
-              </a>
-              <div class="collapse" id="navbar-forms">
-                <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="../../pages/forms/elements.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> E </span>
-                      <span class="sidenav-normal"> Elements </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/forms/components.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> C </span>
-                      <span class="sidenav-normal"> Components </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/forms/validation.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> V </span>
-                      <span class="sidenav-normal"> Validation </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#navbar-tables" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-tables">
-                <i class="ni ni-align-left-2 text-default"></i>
-                <span class="nav-link-text">Tables</span>
-              </a>
-              <div class="collapse" id="navbar-tables">
-                <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="../../pages/tables/tables.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> T </span>
-                      <span class="sidenav-normal"> Tables </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/tables/sortable.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> S </span>
-                      <span class="sidenav-normal"> Sortable </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/tables/datatables.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> D </span>
-                      <span class="sidenav-normal"> Datatables </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#navbar-maps" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="navbar-maps">
-                <i class="ni ni-map-big text-primary"></i>
-                <span class="nav-link-text">Maps</span>
-              </a>
-              <div class="collapse" id="navbar-maps">
-                <ul class="nav nav-sm flex-column">
-                  <li class="nav-item">
-                    <a href="../../pages/maps/google.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> G </span>
-                      <span class="sidenav-normal"> Google </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="../../pages/maps/vector.html" class="nav-link">
-                      <span class="sidenav-mini-icon"> V </span>
-                      <span class="sidenav-normal"> Vector </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../pages/widgets.html">
+              <a class="nav-link" href="/bmi">
                 <i class="ni ni-archive-2 text-green"></i>
-                <span class="nav-link-text">Widgets</span>
+                <span class="nav-link-text">BMI checker</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../pages/charts.html">
+              <a class="nav-link" href="/chatbot">
                 <i class="ni ni-chart-pie-35 text-info"></i>
-                <span class="nav-link-text">Charts</span>
+                <span class="nav-link-text">Chatbot</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../pages/calendar.html">
+              <a class="nav-link" href="/news">
                 <i class="ni ni-calendar-grid-58 text-red"></i>
-                <span class="nav-link-text">Calendar</span>
+                <span class="nav-link-text">News</span>
               </a>
             </li>
           </ul>
-          <!-- Divider -->
-          <hr class="my-3">
-          <!-- Heading -->
-          <h6 class="navbar-heading p-0 text-muted">
-            <span class="docs-normal">Documentation</span>
-            <span class="docs-mini">D</span>
-          </h6>
-          <!-- Navigation -->
-          <ul class="navbar-nav mb-md-3">
-            <li class="nav-item">
-              <a class="nav-link" href="../../docs/getting-started/overview.html" target="_blank">
-                <i class="ni ni-spaceship"></i>
-                <span class="nav-link-text">Getting started</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../docs/foundation/colors.html" target="_blank">
-                <i class="ni ni-palette"></i>
-                <span class="nav-link-text">Foundation</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../docs/components/alerts.html" target="_blank">
-                <i class="ni ni-ui-04"></i>
-                <span class="nav-link-text">Components</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../docs/plugins/charts.html" target="_blank">
-                <i class="ni ni-chart-pie-35"></i>
-                <span class="nav-link-text">Plugins</span>
-              </a>
-            </li>
-          </ul>
+          <!-- Divider -->          
         </div>
       </div>
     </div><div class="scroll-element scroll-x scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="width: 0px; left: 0px;"></div></div></div><div class="scroll-element scroll-y scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="height: 844px; top: 0px;"></div></div></div></div>

@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Posts;
+use App\Categories;
 use Illuminate\Http\Request;
+use Auth;
 
 class PostsController extends Controller
 {
@@ -24,7 +26,8 @@ class PostsController extends Controller
      */
     public function create()
     {
-        //
+        $category=Categories::all();
+        return view('posts.create',['category'=>$category]);
     }
 
     /**
@@ -35,7 +38,18 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        if($request->is_anonymous_post=='on'){
+        $request['user_id'] = 1;    
+        }
+        else{
+        $request['user_id'] = Auth::id();
+        }
+        // dd($request->all());
+
+        $post=Posts::create($request->all());
+        $category=Categories::all();
+        return redirect()->route('post.show', ['post' => $post->id]);
+
     }
 
     /**
@@ -44,9 +58,10 @@ class PostsController extends Controller
      * @param  \App\Posts  $posts
      * @return \Illuminate\Http\Response
      */
-    public function show(Posts $posts)
+    public function show(Posts $posts,Request $request)
     {
-        //
+        $post=Posts::findorfail($request->post);
+        return view('posts.show',['post'=>$post]);
     }
 
     /**
@@ -80,6 +95,6 @@ class PostsController extends Controller
      */
     public function destroy(Posts $posts)
     {
-        //
+        Posts::destroy(1);
     }
 }

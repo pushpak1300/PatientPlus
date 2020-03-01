@@ -25,3 +25,15 @@ Route::get('/logout', function () {
     return view('welcome');
 
 });
+Route::get('/profile','HomeController@profile');
+Route::get('/profile/{id}','HomeController@profileid');
+Route::resource('/post','PostsController');
+Route::resource('/comment','CommentsController');
+Route::resource('/category', 'CategoriesController');
+Route::get('/group', 'HomeController@group');
+Route::get('/groups', 'HomeController@group');
+Route::get('/group/{id}', 'HomeController@groupid');
+Route::get('/chatbot','HomeController@chatbot');
+Route::get('/news','HomeController@news');
+
+
