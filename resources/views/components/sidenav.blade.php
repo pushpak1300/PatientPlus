@@ -47,12 +47,12 @@
             
             
             
-            <li class="nav-item">
+            {{-- <li class="nav-item">
               <a class="nav-link" href="/bmi">
                 <i class="ni ni-archive-2 text-green"></i>
                 <span class="nav-link-text">BMI checker</span>
               </a>
-            </li>
+            </li> --}}
             <li class="nav-item">
               <a class="nav-link" href="/chatbot">
                 <i class="ni ni-chart-pie-35 text-info"></i>
